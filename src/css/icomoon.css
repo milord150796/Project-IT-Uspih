@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts-icomoon/icomoon.eot?5az5ka');
+    src:  url('../fonts-icomoon/icomoon.eot?5az5ka#iefix') format('embedded-opentype'),
+        url('../fonts-icomoon/icomoon.ttf?5az5ka') format('truetype'),
+        url('../fonts-icomoon/icomoon.woff?5az5ka') format('woff'),
+        url('../fonts-icomoon/icomoon.svg?5az5ka#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icons-tviter:before {
+    content: "\e900";
+    color: #fff;
+    background: #1D9BF0;
+    font-size: 36px;
+    border-radius: 4px;
+}
+.icon-icons-viber:before {
+    content: "\e901";
+    color: #fff;
+}
+.icon-icons-facebook:before {
+    content: "\e902";
+    color: #fff;
+    background: #1877F2;
+    border-radius: 50%;
+    font-size: 36px;
+}
+.icon-icons-instagram:before {
+    content: "\e903";
+    color: #fff;
+}
+.icon-icons-telegram:before {
+    content: "\e904";
+    color: #fff;
+    background: linear-gradient(180deg, #2AABEE 0%, #229ED9 10000%);
+    border-radius: 50%;
+    font-size: 36px;
+}
+.icon-icons-linkidin:before {
+    content: "\e906";
+    color: #fff;
+    background: #0A66C2;
+    font-size: 36px;
+    border-radius: 4px;
+}

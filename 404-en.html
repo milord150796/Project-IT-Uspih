@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/icomoon.css">
+    <link rel="shortcut icon" sizes="32x32" href="./src/images/icons/favicon_img.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="16x16" href="./src/images/icons/favicon_img.ico">
+    <meta name="msapplication-TileImage" sizes="16x16" content="./src/images/icons/favicon_img.ico">
+
+</head>
+
+<body>
+    <div id="Main-wrapper">
+        <!--header start-->
+        <header id="header">
+            <div class="hamburger-menu">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <a href="https://intita.com/" target="_blank">
+                            <img class="intita_icon_img" src="src/images/logo_Intita.png" alt="Icon_intita"></a>
+                    </div>
+                    <div class="col-sm-5 menu-block">
+                        <div class="menu">
+                            <ul class="list-unstyled d-flex menu-setion">
+                                <li class="me-4"><a class="" href="index-en#Block_About_us">About us</a></li>
+                                <li class="me-4">
+                                    <span id="span-button" class="nav-link" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Our programs<i id="icon" class="bi bi-caret-down-fill"></i>
+                                    </span>
+                                    <ul class="dropdown-menu me-3">
+                                        <li><a class="dropdown-item pointer-hover" href="https://getstrong.intita.com/"
+                                                target="_blank">Support for small businesses</a>
+                                        </li>
+                                        <li><a class="dropdown-item pointer-hover" href="https://drone.intita.com/"
+                                                target="_blank">Department of drons</a>
+                                        </li>
+                                        <li><a class="dropdown-item pointer-hover" href="https://uspih.vn.ua/"
+                                                target="_blank">Treining veterans</a>
+                                        </li>
+                                        <li><a class="dropdown-item pointer-hover" href="https://www.yeps.intita.com/"
+                                                target="_blank">YEPS Hackathon</a>
+                                        </li>
+                                        <li><a class="dropdown-item pointer-hover" href="https://kavadrive.com/#promo/"
+                                            target="_blank">Veteran's coffee</a>
+                                        </li>
+                                        <li><a class="dropdown-item pointer-hover" href="https://profitday.info/"
+                                            target="_blank">Career days</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="me-4"><a class="" href="index-en#Block_Organizers_and_Partners">Partners</a></li>
+                                <li class="me-4"><a class=""
+                                        href="index-en#Block_Organizers_and_Partners-Contacts-section">Contacts</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 menu-block">
+                        <div class="justify-content-end d-flex">
+                            <div class="share-button justify-content-center ">
+                                <i class="bi bi-share-fill share-trigger share-button pointer"></i>
+                                <ul class="social-options justify-content-center">
+                                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://it.uspih.vn.ua"
+                                            target="_blank" class="facebook icon-icons-facebook"></a>
+                                    </li>
+                                    <li><a href="https://twitter.com/intent/tweet?url=https://it.uspih.vn.ua"
+                                            target="_blank" class="twitter icon-icons-tviter"></a>
+                                    </li>
+                                    <li><a href="https://t.me/share/url?url=https://it.uspih.vn.ua" 
+                                           target="_blank" class="Telegram icon-icons-telegram"></a>
+                                    </li>
+                                    <li class="icon-linkidin"><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://it.uspih.vn.ua"
+                                            target="_blank" class="linkedin icon-icons-linkidin "></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mob-desktop mx-5">
+                                <a class="lang-select me-1 active-lang-ua" href="404" id="uaLang">Ua</a>
+                                <div class="vertical"></div>
+                                <a class="mx-1 lang-en" href="#" id="enLang">En</a>
+                            </div>
+                        </div>
+                    </div>
+                    <input id="menu__toggle" type="checkbox" />
+                    <label id="dropdownMenuButton" class="menu__btn" for="menu__toggle" onclick="toggleMenu()">
+                        <img class="burger-img" src="./src/images/burger_menu.svg" alt="Зображення_бургер-меню" />
+                        <img class="close-img" src="./src/images/close_main.svg" alt="Зображення_кнопки_закриття" />
+                    </label>
+                    <ul class="menu__box" id="menuBox">
+                        <a href="https://intita.com/" target="_blank">
+                            <img class="intita-burger" src="src/images/logo_Intita.png" alt="Icon_intita"></a>
+                        <li><a class="menu__item" href="index-en#Block_About_us" onclick="navigateTo('about'); closeMenu();">About
+                            us</a>
+                        </li>
+                        <li><span id="span-button-mob" class="nav-link menu__item" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Our programs<i id="icon-mob" class="bi bi-caret-down-fill"></i>
+                            </span>
+                            <ul class="dropdown-menu dropdown-menu-partners dropdown-menu-partners-en">
+                                <li><a class="dropdown-item menu-partners" href="https://getstrong.intita.com/"
+                                        target="_blank">Support for small businesses</a>
+                                </li>
+                                <li><a class="dropdown-item menu-partners" href="https://drone.intita.com/"
+                                        target="_blank">Department of drons</a>
+                                </li>
+                                <li><a class="dropdown-item menu-partners" href="https://uspih.vn.ua/"
+                                        target="_blank">Treining veterans</a>
+                                </li>
+                                <li><a class="dropdown-item menu-partners" href="https://www.yeps.intita.com/"
+                                        target="_blank">YEPS Hackathon</a>
+                                </li>
+                                <li><a class="dropdown-item menu-partners" href="https://kavadrive.com/#promo/"
+                                    target="_blank">Veteran's coffee</a>
+                                </li>
+                                <li><a class="dropdown-item menu-partners" href="https://profitday.info/"
+                                    target="_blank">Career days</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-partners"><a class="menu__item" href="index-en#Block_Organizers_and_Partners"
+                                onclick="navigateTo('partners'); closeMenu()" id="top">Partners</a></li>
+                        <li><a class="menu__item" href="index-en#Block_Organizers_and_Partners-Contacts-section"
+                                onclick="navigateTo('contacts'); closeMenu()">Contacts</a></li>
+                                <div class="text-center">
+                                    <div class="mob-lang-select">
+                                        <a class="lang-select active-lang-ua mx-1" href="index" id="uaLang">Ua</a>
+                                        <div class="vertical"></div>
+                                        <a class="mx-2 lang-en" href="#" id="enLang">En</a>
+                                    </div>
+                                </div>
+                        <div class="share-section text-center">
+                            <h2 class="text-center text-share">Share</h2>
+                        </div>
+                        <div class="cocial-icons">
+                            <div class="icons-start">
+                                <ul class="social-options list-unstyled d-flex icons-menu">
+                                    <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://it.uspih.vn.ua"
+                                            target="_blank" class="linkedin icon-icons-linkidin"></a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://it.uspih.vn.ua"
+                                            target="_blank" class="facebook icon-icons-facebook"></a>
+                                    </li>
+                                    <li><a href="https://twitter.com/intent/tweet?url=https://it.uspih.vn.ua"
+                                            target="_blank" class="twitter icon-icons-tviter"></a>
+                                    </li>
+                                    <li><a href="https://t.me/share/url?url=https://it.uspih.vn.ua" target="_blank"
+                                            class="Telegram icon-icons-telegram"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </header>
+        <!--header end-->
+
+        <div class="main-content-wrapper">
+            <div class="content-wrapper">
+                <div class="content-description">
+                    <div class="description-wrapper top">
+                        <h2 class="description-content">Whoops.</h2>
+                    </div>
+                    <div class="description-wrapper center">
+                        <h1 class="description-content">4 0 4</h1>
+                    </div>
+                    <div class="description-wrapper-bottom">
+                        <div class="description-wrapper bottom">
+                            <h2 class="description-content">The page you were looking for does not exist.</h2>
+                        </div>
+                        <div class="button-wrapper">
+                            <a class="button" type="button" href="index-en">Return to the main page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer start-->
+
+        <footer id="footer">
+            <div class="group-developers">
+                <a href="developers-en" class="icon-academy">
+                </a>
+                <div class="text-develop">
+                    <a href="developers-en">Developed by students<br>Vinnytsia IT Academy 2023</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--footer end-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="./src/js/javascript.js"></script>
+</body>
+
+</html>
